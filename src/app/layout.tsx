@@ -18,6 +18,7 @@ const body = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://blockpocketlabs.com"),
   title: {
     default: "BlockPocket Labs",
     template: "%s · BlockPocket Labs",

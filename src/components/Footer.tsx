@@ -29,7 +29,11 @@ export function Footer() {
               Simplified crypto products and tooling for new and traditional
               users.
             </p>
-            <p className="mt-3 text-xs text-cream-muted/60">Chennai, India</p>
+            <p className="mt-3 text-xs text-cream">
+              Based in Imphal
+              <br />
+              Operating from Chennai, India
+            </p>
           </div>
 
           {/* Company */}
@@ -104,3 +108,4 @@ export function Footer() {
     </footer>
   );
 }
+

@@ -20,7 +20,7 @@ const pillars = [
   {
     title: "Built for real people",
     description:
-      "Designed for newcomers and traditional users who want blockchain utility without the jargon.",
+      "Designed for newcomers and traditional users who want blockchain utility without complexity.",
   },
 ];
 

@@ -10,7 +10,7 @@ const navLinks = [
 export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-charcoal-muted/60 bg-charcoal/90 backdrop-blur-md">
-      <div className="relative mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:h-16 sm:px-6 lg:px-8">
+      <div className="relative flex h-14 w-full items-center justify-between px-4 sm:h-16 sm:px-6 lg:px-8">
         <Link href="/" className="group flex min-w-0 items-center gap-2.5 sm:gap-3">
           <Image
             src="/logo.png"

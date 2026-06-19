@@ -48,10 +48,6 @@ async function generateFavicon() {
   );
 
   const ico = await toIco(pngBuffers);
-  const faviconPath = path.join(root, "public", "favicon.ico");
-  await writeFile(faviconPath, ico);
-  console.log("Created public/favicon.ico");
-
   const appFaviconPath = path.join(root, "src", "app", "favicon.ico");
   await writeFile(appFaviconPath, ico);
   console.log("Created src/app/favicon.ico");
