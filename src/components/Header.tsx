@@ -36,7 +36,7 @@ export function Header() {
             </Link>
           ))}
           <a
-            href="mailto:contact@blockpocket.co"
+            href="mailto:contact@blockpocketlabs.com"
             className="rounded-sm bg-orange px-4 py-2 text-sm font-semibold text-charcoal transition-colors hover:bg-orange-hover"
           >
             Get in touch

@@ -63,8 +63,8 @@ export function Footer() {
             <ul className="mt-4 flex items-center gap-3">
               <li>
                 <a
-                  href="mailto:contact@blockpocket.co"
-                  aria-label="Email contact@blockpocket.co"
+                  href="mailto:contact@blockpocketlabs.com"
+                  aria-label="Email contact@blockpocketlabs.com"
                   className="inline-flex h-8 w-8 items-center justify-center text-cream-muted transition-colors hover:text-orange"
                 >
                   <svg

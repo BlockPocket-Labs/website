@@ -142,10 +142,10 @@ export default function TermsPage() {
           <p className="mt-3">
             For questions about these Terms, contact us at{" "}
             <a
-              href="mailto:contact@blockpocket.co"
+              href="mailto:contact@blockpocketlabs.com"
               className="text-cream underline underline-offset-2 transition-colors hover:text-orange"
             >
-              contact@blockpocket.co
+              contact@blockpocketlabs.com
             </a>
             .
           </p>

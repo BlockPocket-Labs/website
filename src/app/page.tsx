@@ -72,7 +72,7 @@ export default function HomePage() {
 
               <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
                 <a
-                  href="mailto:contact@blockpocket.co"
+                  href="mailto:contact@blockpocketlabs.com"
                   className="inline-flex items-center justify-center rounded-sm bg-orange px-6 py-3 text-sm font-semibold text-charcoal transition-colors hover:bg-orange-hover sm:w-auto"
                 >
                   Contact us

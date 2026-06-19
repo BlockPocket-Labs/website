@@ -77,7 +77,7 @@ export default function AboutPage() {
 
       <div className="mt-12">
         <Link
-          href="mailto:contact@blockpocket.co"
+          href="mailto:contact@blockpocketlabs.com"
           className="inline-flex items-center rounded-sm bg-orange px-5 py-2.5 text-sm font-semibold text-charcoal transition-colors hover:bg-orange-hover"
         >
           Contact us
