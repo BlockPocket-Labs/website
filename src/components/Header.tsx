@@ -20,7 +20,7 @@ export function Header() {
             className="shrink-0 transition-transform duration-200 group-hover:scale-105"
             priority
           />
-          <span className="truncate font-display text-xs font-semibold tracking-tight text-cream sm:text-sm">
+          <span className="truncate font-display text-sm font-semibold tracking-tight text-cream sm:text-base">
             BlockPocket Labs
           </span>
         </Link>
