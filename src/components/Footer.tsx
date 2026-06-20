@@ -8,8 +8,8 @@ const companyLinks = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-charcoal-muted/50 bg-charcoal pb-[env(safe-area-inset-bottom)]">
-      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-14 lg:px-8">
+    <footer className="border-t border-charcoal-muted/20 bg-charcoal-light/40 pb-[env(safe-area-inset-bottom)]">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 sm:gap-10 lg:grid-cols-3 lg:gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
@@ -99,7 +99,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-charcoal-muted/30 pt-6 sm:mt-12">
+        <div className="mt-10 border-t border-charcoal-muted/20 pt-6 sm:mt-12">
           <p className="text-xs text-cream-muted/50">
             © 2026 BlockPocket Labs
           </p>

@@ -3,8 +3,9 @@ import Link from "next/link";
 import { MobileNav } from "./MobileNav";
 
 const navLinks = [
+  { href: "/#vision", label: "Vision" },
+  { href: "/#products", label: "Products" },
   { href: "/#approach", label: "Approach" },
-  { href: "/about", label: "About" },
 ];
 
 export function Header() {
@@ -37,9 +38,9 @@ export function Header() {
           ))}
           <a
             href="mailto:contact@blockpocketlabs.com"
-            className="rounded-sm bg-orange px-4 py-2 text-sm font-semibold text-charcoal transition-colors hover:bg-orange-hover"
+            className="btn-primary px-4 py-2 text-sm"
           >
-            Get in touch
+            Contact us
           </a>
         </nav>
 

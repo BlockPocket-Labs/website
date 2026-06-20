@@ -36,3 +36,147 @@ body {
   background-color: var(--color-orange);
   color: var(--color-charcoal);
 }
+
+/* Premium Gradients */
+.gradient-hero {
+  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255, 90, 0, 0.15) 0%, transparent 70%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, rgba(255, 90, 0, 0.1) 0%, rgba(255, 90, 0, 0.05) 100%);
+}
+
+.gradient-glow {
+  background: radial-gradient(circle 600px at center, rgba(255, 90, 0, 0.1) 0%, transparent 80%);
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.glass-hover:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hoverLift {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-hoverLift {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), 
+              box-shadow 0.3s ease;
+}
+
+.animate-hoverLift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(255, 90, 0, 0.1);
+}
+
+/* Button Styles */
+.btn-primary {
+  background: var(--color-orange);
+  color: var(--color-charcoal);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--color-orange-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(255, 90, 0, 0.25);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-cream);
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid var(--color-cream-muted);
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-ghost:hover {
+  background: rgba(255, 90, 0, 0.1);
+  border-color: var(--color-orange);
+  color: var(--color-orange);
+}
+
+/* 12-Column Grid Helper */
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .grid-12 {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-12 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+}
+
+/* Section Spacing */
+.section-spacing {
+  padding: 80px 24px;
+}
+
+@media (max-width: 768px) {
+  .section-spacing {
+    padding: 60px 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .section-spacing {
+    padding: 40px 16px;
+  }
+}
