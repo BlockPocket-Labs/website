@@ -42,7 +42,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          Based in Chennai, India, we&apos;re a small team with a clear
+          Based in Imphal, India, we&apos;re a small team with a clear
           thesis — build things that work, explain them clearly, and treat
           every user like they deserve a product that respects their time.
         </p>
